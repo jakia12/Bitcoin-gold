@@ -900,8 +900,8 @@
   margin-right: 10px;
   font-family: Bowlbyonesc, sans-serif;
   display: block;
+  padding: 12px 26px;
 }
-
 .div-block-7 {
   color: #14234b;
   background-color: #6b6b6b00;
@@ -2593,4 +2593,14 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.social a {
+  text-decoration: none;
 }
