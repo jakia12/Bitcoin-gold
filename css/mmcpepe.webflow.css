@@ -2604,3 +2604,13 @@
 .social a {
   text-decoration: none;
 }
+
+.disp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .disp {
+    display: block;
+  }
+}
